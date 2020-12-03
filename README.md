@@ -28,3 +28,12 @@ It sends a request to any of these external "payment gateways" according to the 
 A requirements.txt file is included.
 
 <code> pip3 install -r requirements.txt </code> / <code> pip install -r requirements.txt </code>
+
+Since there are two separate APIs, it is important to specify which port to run each of them.
+
+The main API is written to run on <h3>port 5000</h3>
+
+<code>
+  $ export FLASK_APP=main.py
+  $ flask run --host 0.0.0.0 --port 5000
+</code>
