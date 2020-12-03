@@ -34,6 +34,6 @@ Since there are two separate APIs, it is important to specify which port to run 
 The main API is written to run on <h3>port 5000</h3>
 
 <code>
-  $ export FLASK_APP=main.py
+  $ export FLASK_APP=main.py \n
   $ flask run --host 0.0.0.0 --port 5000
 </code>
