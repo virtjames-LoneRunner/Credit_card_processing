@@ -19,8 +19,8 @@ It sends a request to any of these external "payment gateways" according to the 
   - PremiumPaymentGateway
   - ExpensivePaymentGateway
   - CheapPaymentGateway
-# (There is a separate API (Payment Gateways) that receives the requests from the main API. It checks whether the credit card number is valid 
-# and has enough balance for the transaction and returns the appropriate response.)
+ (There is a separate API (Payment Gateways) that receives the requests from the main API. It checks whether the credit card number is valid 
+ and has enough balance for the transaction and returns the appropriate response.)
 
 # Usage
 
