@@ -12,7 +12,10 @@ This project is created as a code excercise. It contains one method that process
   - SecurityCode (optional, string, 3 digits)
   - Amount (mandatoy decimal, positive amount)
   
+<h3>The Luhn Algorithm</h3> is implemented on a separate file to check for the validity of the credit card number.
+  
 The response of the method could be one of the following:
+
   - Payment is processed: 200 OK
   - The request is invalid: 400 bad request
   - Any error: 500 internal server error
