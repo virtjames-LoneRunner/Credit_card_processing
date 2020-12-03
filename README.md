@@ -27,12 +27,12 @@ It sends a request to any of these external "payment gateways" according to the 
   - ExpensivePaymentGateway
   - CheapPaymentGateway
   
-The API sends the request based on the following rules:
-  a) If the amount to be paid is less than £20, use CheapPaymentGateway.
+The API sends the request based on the following rules:<br>
+  a) If the amount to be paid is less than £20, use CheapPaymentGateway.<br>
   b) If the amount to be paid is £21-500, use ExpensivePaymentGateway if available.
-      Otherwise, retry only once with CheapPaymentGateway.
+      Otherwise, retry only once with CheapPaymentGateway.<br>
   c) If the amount is > £500, try only PremiumPaymentGateway and retry up to 3 times
-      in case payment does not get processed.
+      in case payment does not get processed.<br>
 
  <h2> Secondary API </h2>
  
