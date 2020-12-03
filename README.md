@@ -27,4 +27,4 @@ It sends a request to any of these external "payment gateways" according to the 
 
 A requirements.txt file is included.
 
-<code> pip3 install -r requirements.txt </code>
+<code> pip3 install -r requirements.txt </code> / <code> pip install -r requirements.txt </code>
